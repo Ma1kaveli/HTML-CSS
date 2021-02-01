@@ -1,0 +1,205 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 940.6px;
+    height: 100%;
+    position: relative;
+    margin: auto;
+}
+
+header{
+    margin-top: 50px;
+    text-align: center;
+}
+
+header ul{
+    border-bottom: 1px solid black;
+    padding-bottom: 45px;
+}
+
+header ul li{
+    display: inline;
+    text-decoration: none;
+}
+
+header ul li:nth-child(-n+4){
+    padding-right: 150px;
+}
+
+header a{
+    color: #828282;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header a:hover{
+    color: #070707;
+}
+
+.first p{
+    display: inline;
+    float: left;
+}
+
+.first p:first-child{
+    margin-top: 25px;
+    margin-right: 300px;
+    font-size: 47px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.first p:nth-child(2){
+    margin-top: 89px;
+    margin-right: 328px;
+    font-weight: lighter;
+    text-align: left;
+}
+
+.first p:nth-child(3){
+    margin-top: 80px;
+    transform: rotate(-90deg);
+}
+
+.first p:nth-child(3) a{
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #828282;
+}
+
+.first p:nth-child(3) a:hover{
+    color: #070707;
+}
+
+.second{
+    /*width: 1445px;*/
+    margin-top: 75px;
+    background: #F6F6F6;
+    text-align: center;
+    height: 506px;
+}
+
+.second p:first-child{
+    padding-top: 100px;
+    color: #070707;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.text{
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.skills{
+    text-align: center;
+    margin-top: 75px;
+}
+
+.skills div#skills p:first-child{
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.skills div#skills p:nth-child(2){
+    margin-top: 75px;
+    font-size: 18px;
+}
+
+.programs{
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.programs div{
+    display: inline-block;
+}
+
+.programs div:nth-child(-n+3){
+    margin-right: 125px;
+}
+
+.programs div p{
+    font-size: 14px;
+    color: #828282;    ;
+}
+
+.programs div:first-child img{
+    background: radial-gradient(75.99% 75.64% at 32.94% 22.44%, rgba(52, 54, 78, 0.98) 0%, #0C0824 100%);
+}
+
+
+.programs div:nth-child(2) img{
+    background: radial-gradient(76% 75.63% at 32.97% 22.44%, rgba(66, 51, 37, 0.98) 0%, #1C0A00 100%);
+}
+
+.programs div:nth-child(3) img{
+    background: radial-gradient(76% 75.63% at 32.97% 22.42%, rgba(68, 47, 85, 0.98) 0%, #12002C 100%);
+}
+
+.portfolio{
+    background: #F6F6F6;
+    padding-top: 75px;
+    text-align: center;
+    padding-bottom: 75px;
+}
+
+.portfolio p#portfolio{
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.portfolio div{
+    margin-bottom: 100px;
+}
+
+.portfolio div a{
+    color: #070707;
+}
+
+.portfolio div a:hover{
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    margin-top: 75px;
+}
+
+footer p:first-child{
+    font-size: 34px;
+    font-weight: bold;
+}
+
+footer p:nth-child(2){
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+footer button{
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    padding: 7px 25px;
+    margin-bottom: 50px;
+}
+
+footer div a{
+    display: inline;
+}
+
+footer div a:nth-child(-n+3){
+    margin-right: 50px;
+}
+
+footer p:last-child{
+    margin-top: 50px;
+    font-size: 14px;
+    color: #828282;
+    margin-bottom: 75px;
+}
